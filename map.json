@@ -1,0 +1,193 @@
+{
+  "nodes":[
+    {
+      "x" : ["1","2"],
+      "y" : ["1","6"],
+      "image" : "http://anheng.qiniudn.com/controller.png",
+      "width" : "100",
+      "height" : "45",
+      "text":" WAF WEB 应用防火墙",
+      "textColor" : "#4169E1",
+      "textPosition" : "bottom"
+    },{
+      "x" : ["1","2"],
+      "y" : ["9","30"],
+      "image" : "http://anheng.qiniudn.com/router.png",
+      "width" : "70",
+      "height" : "40",
+      "text":"              交换机",
+      "textColor" : "black",
+      "textPosition" : "bottom"
+    },{
+      "x" : ["1","6"],
+      "y" : ["1","2"],
+      "image" : "http://anheng.qiniudn.com/internet.png",
+      "width" : "60",
+      "height" : "60",
+      "text":"        Web1",
+      "textColor" : "black",
+      "textPosition" : "bottom",
+      "ip" : "https://192.168.60.120"
+    },{
+      "x" : ["1","3"],
+      "y" : ["1","2"],
+      "image" : "http://anheng.qiniudn.com/internet.png",
+      "width" : "60",
+      "height" : "60",
+      "text":"            Web2",
+      "textColor" : "black",
+      "textPosition" : "bottom",
+      "ip" : "https://192.168.60.121"
+    },{
+      "x" : ["1","2"],
+      "y" : ["1","2"],
+      "image" : "http://anheng.qiniudn.com/internet.png",
+      "width" : "60",
+      "height" : "60",
+      "text":"            Web3",
+      "textColor" : "black",
+      "textPosition" : "bottom",
+      "ip" : "https://192.168.60.122"
+    },{
+      "x" : ["2","3"],
+      "y" : ["1","2"],
+      "image" : "http://anheng.qiniudn.com/internet.png",
+      "width" : "60",
+      "height" : "60",
+      "text":"Web4            ",
+      "textColor" : "black",
+      "textPosition" : "bottom",
+      "ip" : "https://192.168.60.123"
+    },{
+      "x" : ["5","6"],
+      "y" : ["1","2"],
+      "image" : "http://anheng.qiniudn.com/internet.png",
+      "width" : "60",
+      "height" : "60",
+      "text":"Web5        ",
+      "textColor" : "black",
+      "textPosition" : "bottom",
+      "ip" : "https://192.168.60.124"
+    },{
+      "x" : ["1","2"],
+      "y" : ["21","30"],
+      "image" : "http://anheng.qiniudn.com/router.png",
+      "width" : "70",
+      "height" : "40",
+      "text":"              交换机",
+      "textColor" : "black",
+      "textPosition" : "bottom"
+    },{
+      "x" : ["7","20"],
+      "y" : ["3","4"],
+      "image" : "http://anheng.qiniudn.com/firewall.png",
+      "width" : "100",
+      "height" : "50",
+      "text":"DBAudit 数据库审计系统",
+      "textColor" : "#4169E1",
+      "textPosition" : "bottom"
+    },{
+      "x" : ["1","2"],
+      "y" : ["5","6"],
+      "image" : "http://anheng.qiniudn.com/internet.png",
+      "width" : "60",
+      "height" : "60",
+      "text":"DB 数据库服务器",
+      "textColor" : "black",
+      "textPosition" : "bottom"
+    }
+  ],
+  "edges":[
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["1","6"],
+      "xEnd" : ["1","2"],
+      "yEnd" : ["9","30"],
+      "arrayPercent" : "0.27"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["9","30"],
+      "xEnd" : ["1","6"],
+      "yEnd" : ["1","2"],
+      "arrayPercent" : "0.07"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["9","30"],
+      "xEnd" : ["2","6"],
+      "yEnd" : ["1","2"],
+      "arrayPercent" : "0.135"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["9","30"],
+      "xEnd" : ["3","6"],
+      "yEnd" : ["1","2"],
+      "arrayPercent" : "0.25"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["9","30"],
+      "xEnd" : ["4","6"],
+      "yEnd" : ["1","2"],
+      "arrayPercent" : "0.165"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["9","30"],
+      "xEnd" : ["5","6"],
+      "yEnd" : ["1","2"],
+      "arrayPercent" : "0.085"
+    },
+    {
+      "xStart" : ["1","6"],
+      "yStart" : ["3","6"],
+      "xEnd" : ["1","2"],
+      "yEnd" : ["21","30"],
+      "arrayPercent" : "0.095"
+    },
+    {
+      "xStart" : ["2","6"],
+      "yStart" : ["3","6"],
+      "xEnd" : ["1","2"],
+      "yEnd" : ["21","30"],
+      "arrayPercent" : "0.13"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["3","6"],
+      "xEnd" : ["1","2"],
+      "yEnd" : ["21","30"],
+      "arrayPercent" : "0.19"
+    },
+    {
+      "xStart" : ["4","6"],
+      "yStart" : ["3","6"],
+      "xEnd" : ["1","2"],
+      "yEnd" : ["21","30"],
+      "arrayPercent" : "0.13"
+    },
+    {
+      "xStart" : ["5","6"],
+      "yStart" : ["3","6"],
+      "xEnd" : ["1","2"],
+      "yEnd" : ["21","30"],
+      "arrayPercent" : "0.105"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["21","30"],
+      "xEnd" : ["7","20"],
+      "yEnd" : ["3","4"],
+      "arrayPercent" : "0.35"
+    },
+    {
+      "xStart" : ["1","2"],
+      "yStart" : ["21","30"],
+      "xEnd" : ["1","2"],
+      "yEnd" : ["5","6"],
+      "arrayPercent" : "0.37"
+    }
+  ]
+}
