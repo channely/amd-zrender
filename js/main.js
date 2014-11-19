@@ -1,7 +1,7 @@
-var fileLocation = './js/zrender-original';
+var fileLocation = './libs/zrender-original';
 require.config({
     paths: {
-        'zrender': fileLocation,
+        'zrender/zrender': fileLocation,
         'zrender/shape/Image': fileLocation,
         'zrender/shape/Line' :fileLocation,
         'zrender/shape/Isogon' :fileLocation
@@ -153,7 +153,7 @@ require(["zrender/zrender", 'zrender/shape/Image', 'zrender/shape/Line', 'zrende
     var width = Math.ceil(zr.getWidth());
     var height = Math.ceil(zr.getHeight());
 
-    $.get("map.json", function (json) {
+    $.get("data/map.json", function (json) {
         // 清空画布
         zr.clear();
 
